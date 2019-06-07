@@ -22,7 +22,9 @@ table tbody tr th{
     border: 1px solid black;
     border-top: none;
     width: 350px;
-    text-align: center
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 350px;
 }
 
 table thead tr th:first-of-type,
@@ -43,7 +45,7 @@ table tbody tr th:nth-of-type(odd){
     background-color: rgb(114, 133, 219);
 }
 
-table thead tr:hover,
+
 table tbody tr:hover{
     opacity: 0.8;
 }
