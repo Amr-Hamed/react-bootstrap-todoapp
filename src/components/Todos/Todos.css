@@ -1,6 +1,16 @@
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.616);
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
 table{
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 50px;
     color: white;
 }
 
@@ -31,6 +41,11 @@ table tbody tr th:nth-of-type(even){
 
 table tbody tr th:nth-of-type(odd){
     background-color: rgb(114, 133, 219);
+}
+
+table thead tr:hover,
+table tbody tr:hover{
+    opacity: 0.8;
 }
 
 button{

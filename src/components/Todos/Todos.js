@@ -1,5 +1,6 @@
 import React from 'react';
-import './Todos.css'
+import './Todos.css';
+import { Jumbotron } from 'reactstrap'
 export default class Todos extends React.Component {
 
   state = {
@@ -30,17 +31,19 @@ export default class Todos extends React.Component {
 
   render() {
     return (
-      <table >
-        <thead>
-          <tr>
-            <th>Todo</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {this.state.todos}         
-        </tbody>
-      </table>
+      <div className='wrapper'>
+        <table >
+          <thead>
+            <tr>
+              <th>Todo</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.state.todos}         
+          </tbody>
+        </table>
+      </div>
     );
   }
 }
