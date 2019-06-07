@@ -1,0 +1,16 @@
+.header{
+    height: 80px;
+    background-color: rgba(173, 173, 173, 0.267);
+
+}
+
+input{
+    margin-right: 20px;
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.edit{
+    margin-top: 40px;
+}

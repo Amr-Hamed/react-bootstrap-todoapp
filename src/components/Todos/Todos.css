@@ -1,0 +1,48 @@
+table{
+    margin-top: 80px;
+    margin-left: 300px;
+    color: white;
+}
+
+table thead{
+    background-color: rgb(47, 87, 161);
+}
+table thead tr th,
+table tbody tr th{
+    border: 1px solid black;
+    border-top: none;
+    width: 350px;
+    text-align: center
+}
+
+table thead tr th:first-of-type,
+table tbody tr th:first-of-type{
+    border-left: none;
+}
+
+table thead tr th:last-of-type,
+table tbody tr th:last-of-type{
+    border-right: none;
+}
+
+table tbody tr th:nth-of-type(even){
+    background-color: rgb(176, 190, 255);
+}
+
+table tbody tr th:nth-of-type(odd){
+    background-color: rgb(114, 133, 219);
+}
+
+button{
+    background-color: rgb(57, 139, 207);
+    border: none;
+    margin-left: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: white ;
+    border: none;
+    margin-left: 10px;
+    color: rgb(57, 139, 207);
+}
