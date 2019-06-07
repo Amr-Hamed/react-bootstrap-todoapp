@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <div className="App">
       <link href="https://fonts.googleapis.com/css?family=Righteous|ZCOOL+KuaiLe&display=swap" rel="stylesheet"/>        <Navbar icons={this.state.icons} ></Navbar>
-
+        <div className='bg'></div>
         <Main addTodo={this.addTodo} todo={this.state.todo} todos={this.state.todos}></Main>
         <Todos todos={this.state.todos} editTodo={this.editTodo} deleteTodo={this.deleteTodo}></Todos>
       </div>
